@@ -22,6 +22,7 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+  border: 1px solid black;
 }
 
 .logo span {
@@ -42,4 +43,28 @@ nav span {
 
 a {
   color: black;
+}
+
+div {
+  border: 1px solid black;
+}
+
+.content {
+  border: 1px solid black;
+  display: flex;
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
 }
