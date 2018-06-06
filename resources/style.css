@@ -3,6 +3,13 @@ html {
   font-family: Verdana sans-serif;
 }
 
+body {
+  margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -22,7 +29,6 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  border: 1px solid black;
 }
 
 .logo span {
@@ -46,25 +52,102 @@ a {
 }
 
 div {
-  border: 1px solid black;
+  display: block;
+}
+
+p {
+  display: block;
 }
 
 .content {
-  border: 1px solid black;
   display: flex;
+  padding-top: 116px;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+
 }
 
 .column.large {
-  display: flex;
   width: 630px;
 }
 
 .column.medium {
-  display: flex;
   width: 300px;
 }
 
 .column.small {
-  display: flex;
   width: 240px;
+}
+
+.lead-story .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+  width: 630px;
+}
+
+.hipster {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+}
+
+.fall-season {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+}
+
+.cat {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.narrative {
+  margin-top: 16px;
+}
+
+.bite {
+  font-size: 12px;
+  font-family: Verdana;
+  background-color: WhiteSmoke;
+  color: DimGray;
+  padding: 11px 20px;
+  border-bottom: 1px solid black;
+  display: block;
+  font-weight: normal;
+}
+
+.news-bites {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 41px;
+  text-align: center;
 }
