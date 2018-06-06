@@ -60,6 +60,15 @@ p {
   display: block;
 }
 
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Georgia;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .content {
   display: flex;
   padding-top: 116px;
@@ -118,6 +127,7 @@ p {
   font-size: 30px;
   color: white;
   text-align: center;
+  justify-content: center;
 }
 
 .stories {
